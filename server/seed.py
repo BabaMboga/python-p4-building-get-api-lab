@@ -35,7 +35,7 @@ with app.app_context():
         bg = BakedGood(
             name=name,
             price=randint(1,10),
-            bakery=rc(bakeries)
+            baked_good=rc(bakeries)
         )
 
         baked_goods.append(bg)
